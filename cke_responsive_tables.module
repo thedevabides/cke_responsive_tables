@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Responsive table functions.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function cke_responsive_tables_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'core/drupal.tableresponsive';
+}

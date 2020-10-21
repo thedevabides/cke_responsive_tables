@@ -1,0 +1,8 @@
+name: 'Ckeditor Responsive Tables'
+type: module
+package: Careerforce
+description: 'Provides core Drupal '
+core: 8.x
+
+dependencies:
+- ckeditor
